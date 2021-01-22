@@ -13,6 +13,11 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .wrapper {
   width: 100%;
   display: -ms-grid;
@@ -171,7 +176,7 @@
     font-size: 1.8rem;
   }
   .card div a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 

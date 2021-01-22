@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+.wrapper {
+  padding: 0 50px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  overflow: hidden;
+}
+
+.wrapper .bot-main {
+  background: url("./pictures/Botswana.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bot-second {
+  background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/58/af/f5/photo1jpg.jpg?w=1200&h=700&s=1") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bot-third {
+  background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/12/2b/4d/se-desiderate-incontrare.jpg?w=700&h=400&s=1") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bos-main {
+  background: url("./pictures/Boston.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bos-second {
+  background: url("https://www.fodors.com/assets/destinations/54474/statue-george-washington-public-garden-back-bay-south-end-boston-massachusetts-usa_980x650.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bos-third {
+  background: url("https://www.bostonteapartyship.com/wp-content/uploads/2019/11/scenic-views-of-boston.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bris-main {
+  background: url("./pictures/Brisbane.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bris-second {
+  background: url("https://media.apnarm.net.au/media/images/2017/03/31/b88648238z1_20170331110336_000g6digjkj2-0-sd7dxvyyclt2zltozn2_fct4221x3134x586x191_t1880.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .bris-third {
+  background: url("https://brisbanedevelopment.com/wp-content/uploads/2018/11/Parmalat-after.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .is-main {
+  background: url("./pictures/Istanbul.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .is-second {
+  background: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sa6549607c78f5c11/image/idb416cb0bd496a9c/version/1605540571/image.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .is-third {
+  background: url("https://www.touropia.com/gfx/d/tourist-attractions-in-istanbul/grand_bazaar.jpg?v=1") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .ky-main {
+  background: url("./pictures/Kyoto.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .ky-second {
+  background: url("https://www.planetware.com/photos-large/JPN/japan-kyoto-fushimi-inari-taisha-shrine.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.wrapper .ky-third {
+  background: url("https://static.toiimg.com/photo/74192859.cms") center no-repeat;
+  background-size: cover;
+}
+
+.bot-head {
+  background: url("./pictures/Botswana.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.bos-head {
+  background: url("./pictures/Boston.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.bris-head {
+  background: url("./pictures/Brisbane.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.is-head {
+  background: url("./pictures/Istanbul.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.ky-head {
+  background: url("./pictures/Kyoto.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 10rem;
+  padding: 20px 50px;
+  margin: 0 -50px;
+}
+
+.header i {
+  position: absolute;
+  right: 30px;
+  color: white;
+  text-shadow: 2px 2px 1px #000, -1px -1px 9px #000;
+}
+
+.header p {
+  position: relative;
+  color: white;
+  top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #000, -1px -1px 9px #000;
+}
+
+.about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  -webkit-box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+          box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+  background-color: #eeeeee;
+}
+
+.about div h3 {
+  text-align: left;
+}
+
+.about div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+      grid-template-areas: 'one one two' 'one one three';
+}
+
+.gallery .main-pic {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: one;
+  height: 600px;
+}
+
+.gallery .two {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: two;
+}
+
+.gallery .three {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: three;
+}
+
+.gallery div {
+  -webkit-box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+          box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+}
+
+.plan p {
+  font-size: 2rem;
+}
+
+.plan .prices {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 40px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.plan .prices div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+          box-shadow: 3px 3px 3px #CCC, -1px -1px 3px #ccc;
+}
+
+.plan .prices div a {
+  margin-top: 10px;
+  background-color: rgba(233, 165, 40, 0.76);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+}
+
+.plan .prices div a:hover {
+  background-color: rgba(235, 163, 45, 0.96);
+}
+
+footer {
+  color: white;
+  background-color: #222;
+  width: 100vw;
+  margin: 0 -50px;
+  padding: 30px;
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+        grid-template-areas: 'one' 'two' 'three';
+  }
+  .gallery .main-pic {
+    height: 300px;
+  }
+  .gallery div {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=locationStyle.css.map */
