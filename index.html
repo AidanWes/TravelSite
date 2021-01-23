@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>TravelGo</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/58355b8319.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,9 +24,20 @@
                 </ul>
             </div>
             <div class="hamburger">
-                <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+                <i onclick=toggle() class="fas fa-bars fa-2x"></i>
             </div>   
         </nav>
+
+        <section class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#botswana">Botswana</a></li>
+                <li><a href="#boston">Boston</a></li>
+                <li><a href="#brisbane">Brisbane</a></li>
+                <li><a href="#istanbul">Istanbul</a></li>
+                <li><a href="#kyoto">Kyoto</a></li>
+            </ul>
+        </section>
 
         <section class="home card" id="home">
             <video playsinline autoplay muted loop poster="./styles/pictures/Forest.jpg">
