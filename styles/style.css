@@ -95,7 +95,7 @@ a {
 }
 
 .main-nav i {
-  display: none;
+  visibility: hidden;
   position: relative;
   cursor: pointer;
 }
@@ -210,7 +210,7 @@ a {
     display: none;
   }
   .hamburger i {
-    display: block;
+    visibility: none;
   }
   .card div h1 {
     font-size: 2.8rem;

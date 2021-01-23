@@ -82,7 +82,7 @@ a{
         }
     }
     i{
-        display: none;
+        visibility: hidden;
         position: relative;
         cursor: pointer;
     }
@@ -188,7 +188,7 @@ a{
 
     .hamburger{
         i{
-        display: block;
+            visibility: none;
         }
     }
 
